@@ -1,0 +1,43 @@
+{
+    "extends": "airbnb-base",
+    "env": {
+        "jest": true,
+        "browser": true,
+        "jquery": true
+	},
+    "rules": {
+        "indent": ["error", "tab", {
+            "SwitchCase": 1,
+            "VariableDeclarator": 1,
+            "outerIIFEBody": 1,
+            "FunctionDeclaration": {
+                "parameters": 1,
+                "body": 1
+            },
+            "FunctionExpression": {
+                "parameters": 1,
+                "body": 1
+            },
+            "CallExpression": {
+                "arguments": 1
+            },
+            "ArrayExpression": 1,
+            "ObjectExpression": 1,
+            "ImportDeclaration": 1,
+            "flatTernaryExpressions": false
+		}],
+		"no-tabs": "off",
+		"no-console": "off",
+		"no-underscore-dangle": "off",
+		"linebreak-style": 0,
+        "import/no-dynamic-require": 0,
+		"class-methods-use-this": "off",
+        "max-len": "off",
+        "guard-for-in": "off",
+        "no-restricted-syntax": "off",
+        "valid-typeof": "off",
+        "arrow-body-style": "off",
+        "no-await-in-loop": "off",
+        "eqeqeq": "off"
+    }
+}

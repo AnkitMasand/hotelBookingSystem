@@ -1,0 +1,41 @@
+{
+    "name": "hotel-booking-system",
+    "version": "1.0.0",
+    "main": "./index.js",
+    "scripts": {
+        "start": "export NODE_ENV=production && node ./index.js",
+        "dev": "export NODE_ENV=development && nodemon ./index.js",
+        "docs": "jsdoc ./*"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "bluebird": "^3.5.1",
+        "debug": "^3.1.0",
+        "kcors": "^2.2.1",
+        "koa": "^2.3.0",
+        "koa-bodyparser": "^4.2.0",
+        "koa-compress": "^3.0.0",
+        "koa-morgan": "^1.0.1",
+        "koa-router": "^7.2.1",
+        "lodash": "^4.17.4",
+        "moment": "^2.22.2",
+        "mongoose": "^5.0.10",
+        "raven": "^2.6.3",
+        "redis": "^2.8.0"
+    },
+    "devDependencies": {
+        "eslint": "^4.19.1",
+        "eslint-config-airbnb-base": "^13.0.0",
+        "eslint-plugin-import": "^2.13.0",
+        "jest": "^21.1.0",
+        "jsdoc": "^3.5.5",
+        "nodemon": "^1.17.5",
+        "supertest": "^3.0.0"
+    },
+    "jest": {
+        "testEnvironment": "node"
+    },
+    "directories": {
+        "test": "test"
+    }
+}
